@@ -121,6 +121,7 @@ node . decode 8x10iU 8x07Q 8x10iF 8x09j 8x10iU 8x07w 8x10iU 8x22iW // Returns [I
 }
 
 */
+```
 
 ## Possible Error Situations
 Some errors that can possibly occur

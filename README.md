@@ -65,7 +65,7 @@ console.log(process.decode(`8x10iU 8x07Q 8x10iF 8x09j 8x10iU 8x07w 8x10iU 8x22iW
 {
   case: 'success',
   code: '200',
-  data: '8x10iO 8x07i 8x10iU 8x09p 8x10iU 8x07J 8x10iB 8x22iR'
+  data: 'hi'
 }
 
 */
@@ -93,11 +93,34 @@ console.log(decode(`8x10iU 8x07Q 8x10iF 8x09j 8x10iU 8x07w 8x10iU 8x22iW`)) // R
 {
   case: 'success',
   code: '200',
-  data: '8x10iO 8x07i 8x10iU 8x09p 8x10iU 8x07J 8x10iB 8x22iR'
+  data: 'hi'
 }
 
 */
 ```
+
+```
+// CASE III
+node . encode Hello World! // Returns [In Console]:
+/*
+
+{
+  case: 'success',
+  code: '200',
+  data: '8x10iA 8x05M 8x10iN ... +45 strings'
+}
+
+*/
+node . decode 8x10iU 8x07Q 8x10iF 8x09j 8x10iU 8x07w 8x10iU 8x22iW // Returns [In Console]:
+/*
+
+{
+  case: 'success',
+  code: '200',
+  data: 'hi'
+}
+
+*/
 
 ## Possible Error Situations
 Some errors that can possibly occur

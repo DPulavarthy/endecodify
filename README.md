@@ -1,5 +1,5 @@
 [![Kurasad#2521](https://img.shields.io/badge/Creator-Kurasad%232521-%23ff0092)](https://twitter.com/iKurasad) 
-# NOTE: Not published to npmjs.com yet
+
 <p>
   <a href="https://github.com/DPulavarthy/endecodify" target="_blank">
     <img src="https://i.imgur.com/QIFginm.png" alt="Logo">

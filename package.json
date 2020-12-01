@@ -1,0 +1,26 @@
+{
+  "name": "endecodify",
+  "version": "1.0.0",
+  "description": "A very basic encoder & decoder ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPulavarthy/endecodify.git"
+  },
+  "keywords": [
+    "encode",
+    "decode",
+    "encodify",
+    "decodify",
+    "endecodify"
+  ],
+  "author": "Dhanush Pulavarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DPulavarthy/endecodify/issues"
+  },
+  "homepage": "https://github.com/DPulavarthy/endecodify#readme"
+}
